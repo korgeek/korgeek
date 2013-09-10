@@ -1,0 +1,66 @@
+<?xml version="1.0"?>
+<project name="Jar Publish" default="publish" basedir=".">
+	
+	<property name="baseDir" value="." />
+	<property name="binDir" value="./bin" />
+	<property name="publishDir" value="./publish" />
+	<property name="workspaceDir" value="../../ion/" />
+	<tstamp>
+	  <format property="TODAY_MY" pattern="MM/dd/yyyy hh:mm"/>
+	</tstamp>
+	
+	
+	<property name="manifest.main.class" value="" />
+	<property name="manifest.classpath" value="./" />
+	<property name="version.number" value="0"/>
+	<property name="build.number" value="1"/>
+	
+	<target name="test_framework">
+		<property name="test.reports" value="./res/report" /> 
+
+		<path id="test.classpath">
+			<pathelement location="bin" />
+			<fileset dir="lib">
+			    <include name="*.jar"/>
+		  </fileset>
+		</path>
+
+		<junit printsummary="on" haltonfailure="on" fork="true">
+			<jvmarg value="-Dfile.encoding=UTF-8"/>
+			<classpath refid="test.classpath" />
+			<formatter type="xml" />
+			<test name="korgeek.TestAllTests" todir="res/report/" />
+		</junit>
+
+	</target>
+	
+	
+	<target name="publish">
+		<delete file="publish/korgeek_util_${version.number}.${build.number}.jar"></delete>
+		<jar destfile="publish/korgeek_util_${version.number}.${build.number}.jar">
+			<manifest>
+			  <attribute name="Built-By" value="${user.name}"/>
+			  <attribute name="Created-By" value="${user.name}"/>
+			  <!-- attribute name="Main-Class" value="${manifest.main.class}"/ -->
+			  <attribute name="Built-Date" value="${TODAY_MY}" />
+			  <attribute name="Class-Path" value="${manifes.classpath}" />
+			  <section name="common">
+			    <attribute name="Specification-Title" value="i-on common framework"/>
+			    <attribute name="Specification-Version" value="${version.number}.${build.number}"/>
+			    <attribute name="Specification-Vendor" value="i-on"/>
+			  </section>
+			</manifest>
+			<fileset dir="${binDir}/">
+				<include name="korgeek/**"/>
+				<exclude name="**/Test*.class"/>
+			</fileset>
+		</jar>
+	</target>
+	
+	
+	<target name="copy" depends="publish">
+		<copy file="publish/korgeek_util_${version.number}.${build.number}.jar" todir="${workspaceDir}/alumni_server/lib/" />
+	</target>
+		
+	
+</project>
