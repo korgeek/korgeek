@@ -1,10 +1,34 @@
 package korgeek.util;
 
+import java.io.File;
+
 import junit.framework.TestCase;
 
 
 public class TestCodeUtil extends TestCase{
 
+	
+	public void testRandomCode() throws Exception {
+		
+		assertEquals(1, CodeUtil.randomCode(1).length());
+		assertEquals(2, CodeUtil.randomCode(2).length());
+		assertEquals(3, CodeUtil.randomCode(3).length());
+		assertEquals(4, CodeUtil.randomCode(4).length());
+		assertEquals(5, CodeUtil.randomCode(5).length());
+		assertEquals(6, CodeUtil.randomCode(6).length());
+		assertEquals(7, CodeUtil.randomCode(7).length());
+		assertEquals(8, CodeUtil.randomCode(8).length());
+		assertEquals(9, CodeUtil.randomCode(9).length());
+		
+	}
+	
+	public void testUniqueKey() throws Exception {
+		
+		assertNotSame(CodeUtil.unique(), CodeUtil.unique());
+		assertNotSame(CodeUtil.sequence(), CodeUtil.sequence());
+		
+	}
+	
 	public void testEncode36() throws Exception {
 		
 		long nanoTime = System.nanoTime();
@@ -43,6 +67,35 @@ public class TestCodeUtil extends TestCase{
 		assertEquals(message, CodeUtil.decrypt(key, encrypted));
 
 	}
+	
+	public void testPassword() throws Exception{
+
+		assertEquals(CodeUtil.password("1234"), CodeUtil.password("1234"));
+		
+	}
+	
+	
+	public void testFileName() throws Exception {
+		
+		String filename = "test.png";
+		long filehash = 1234L;
+		String filehashstr = "1234";
+		
+		
+		File test = CodeUtil.toFile("test.png");
+		File test2 = CodeUtil.toFile("test.png", filehash);
+		String test3 = CodeUtil.toFilePath(filename, filehashstr);
+		Debug.debug(test);
+		Debug.debug(test2);
+		Debug.debug(test3);
+	}
+	
+	public void xtestName()  {
+		
+		Debug.debug( CodeUtil.toBase36(System.nanoTime()) );
+		
+	}
+	
 	
 }
 

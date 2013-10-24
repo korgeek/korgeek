@@ -61,7 +61,7 @@
 	
 	
 	<target name="copy" depends="publish">
-		<copy file="${publishDir}/${publishName}_${version.number}.${build.number}.jar" todir="${workspaceDir}/alumni_server/lib/" />
+		<copy file="${publishDir}/${publishName}_${version.number}.${build.number}.jar" todir="../${workspaceDir}/alumni_server/lib/" />
 	</target>
 		
 	

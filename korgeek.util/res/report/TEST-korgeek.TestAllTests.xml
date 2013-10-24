@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite errors="0" failures="0" hostname="aca9002a.ipt.aol.com" name="korgeek.TestAllTests" tests="12" time="1.333" timestamp="2013-09-10T09:01:51">
+<testsuite errors="0" failures="0" hostname="jiniks-MacBook-Pro.local" name="korgeek.TestAllTests" tests="16" time="1.793" timestamp="2013-10-02T11:06:22">
   <properties>
     <property name="java.vendor" value="Apple Inc." />
     <property name="sun.java.launcher" value="SUN_STANDARD" />
@@ -7,7 +7,7 @@
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers" />
     <property name="os.name" value="Mac OS X" />
     <property name="sun.boot.class.path" value="/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/jsfd.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/classes.jar:/System/Library/Frameworks/JavaVM.framework/Frameworks/JavaRuntimeSupport.framework/Resources/Java/JavaRuntimeSupport.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/ui.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/laf.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/sunrsasign.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/jsse.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/jce.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/charsets.jar" />
-    <property name="TODAY" value="September 10 2013" />
+    <property name="TODAY" value="October 2 2013" />
     <property name="build.number" value="1" />
     <property name="java.vm.specification.vendor" value="Sun Microsystems Inc." />
     <property name="ant.home" value="/Users/jinik/dev/app/eclipse-juno/plugins/org.apache.ant_1.8.3.v20120321-1730" />
@@ -22,7 +22,7 @@
     <property name="manifest.main.class" value="" />
     <property name="ant.project.default-target" value="publish" />
     <property name="ant.project.name" value="Jar Publish" />
-    <property name="DSTAMP" value="20130910" />
+    <property name="DSTAMP" value="20131002" />
     <property name="java.version" value="1.6.0_51" />
     <property name="user.timezone" value="" />
     <property name="sun.arch.data.model" value="64" />
@@ -38,7 +38,7 @@
     <property name="java.home" value="/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home" />
     <property name="java.vm.info" value="mixed mode" />
     <property name="ant.file" value="/Users/jinik/dev/workspace/git/korgeek/korgeek.util/build.xml" />
-    <property name="os.version" value="10.8.4" />
+    <property name="os.version" value="10.8.5" />
     <property name="test.reports" value="./res/report" />
     <property name="ant.file.type.Jar Publish" value="file" />
     <property name="path.separator" value=":" />
@@ -59,10 +59,10 @@
     <property name="java.vm.vendor" value="Apple Inc." />
     <property name="gopherProxySet" value="false" />
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment" />
-    <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner korgeek.TestAllTests filtertrace=true haltOnError=false haltOnFailure=true formatter=org.apache.tools.ant.taskdefs.optional.junit.SummaryJUnitResultFormatter showoutput=false outputtoformatters=true logfailedtests=true logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,/Users/jinik/dev/workspace/git/korgeek/korgeek.util/res/report/TEST-korgeek.TestAllTests.xml crashfile=/Users/jinik/dev/workspace/git/korgeek/korgeek.util/junitvmwatcher435107505144889915.properties propsfile=/Users/jinik/dev/workspace/git/korgeek/korgeek.util/junit262905611348533123.properties" />
+    <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner korgeek.TestAllTests filtertrace=true haltOnError=false haltOnFailure=true formatter=org.apache.tools.ant.taskdefs.optional.junit.SummaryJUnitResultFormatter showoutput=false outputtoformatters=true logfailedtests=true logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,/Users/jinik/dev/workspace/git/korgeek/korgeek.util/res/report/TEST-korgeek.TestAllTests.xml crashfile=/Users/jinik/dev/workspace/git/korgeek/korgeek.util/junitvmwatcher7892242793427015963.properties propsfile=/Users/jinik/dev/workspace/git/korgeek/korgeek.util/junit6742956720918191723.properties" />
     <property name="java.class.path" value="/Users/jinik/dev/workspace/git/korgeek/korgeek.util/bin:/Users/jinik/dev/workspace/git/korgeek/korgeek.util/lib/apache_extend_fat.jar:/Users/jinik/dev/workspace/git/korgeek/korgeek.util/lib/geocoder-java-0.9.jar:/Users/jinik/dev/workspace/git/korgeek/korgeek.util/lib/gson-2.2.4.jar:/Users/jinik/dev/workspace/git/korgeek/korgeek.util/lib/junit.jar:/Users/jinik/dev/workspace/git/korgeek/korgeek.util/lib/twitter4j-core-3.0.3.jar:/Users/jinik/dev/app/eclipse-juno/plugins/org.apache.ant_1.8.3.v20120321-1730/lib/ant-launcher.jar:/Users/jinik/dev/app/eclipse-juno/plugins/org.apache.ant_1.8.3.v20120321-1730/lib/ant.jar:/Users/jinik/dev/app/eclipse-juno/plugins/org.apache.ant_1.8.3.v20120321-1730/lib/ant-junit.jar:/Users/jinik/dev/app/eclipse-juno/plugins/org.apache.ant_1.8.3.v20120321-1730/lib/ant-junit4.jar" />
     <property name="ant.version" value="Apache Ant(TM) version 1.8.3 compiled on February 26 2012" />
-    <property name="TSTAMP" value="1601" />
+    <property name="TSTAMP" value="1806" />
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification" />
     <property name="java.vm.specification.version" value="1.0" />
     <property name="sun.cpu.endian" value="little" />
@@ -83,33 +83,41 @@
     <property name="basedir" value="/Users/jinik/dev/workspace/git/korgeek/korgeek.util" />
     <property name="baseDir" value="." />
     <property name="ant.java.version" value="1.6" />
-    <property name="TODAY_MY" value="09/10/2013 04:01" />
+    <property name="TODAY_MY" value="10/02/2013 06:06" />
     <property name="ant.core.lib" value="/Users/jinik/dev/app/eclipse-juno/plugins/org.apache.ant_1.8.3.v20120321-1730/lib/ant.jar" />
     <property name="file.encoding" value="UTF-8" />
     <property name="java.specification.version" value="1.6" />
     <property name="ant.project.invoked-targets" value="test_framework,publish,copy" />
   </properties>
-  <testcase classname="korgeek.util.TestCodeUtil" name="testEncode36" time="0.0030" />
-  <testcase classname="korgeek.util.TestCodeUtil" name="testDecode36" time="0.035" />
-  <testcase classname="korgeek.util.TestCodeUtil" name="testEncrypt" time="0.155" />
-  <testcase classname="korgeek.util.TestDateFormatUtil" name="testToFormatAndDate" time="0.0040" />
-  <testcase classname="korgeek.util.TestDateFormatUtil" name="testSimpleTo" time="0.0" />
+  <testcase classname="korgeek.util.TestCodeUtil" name="testRandomCode" time="0.0030" />
+  <testcase classname="korgeek.util.TestCodeUtil" name="testUniqueKey" time="0.029" />
+  <testcase classname="korgeek.util.TestCodeUtil" name="testEncode36" time="0.0020" />
+  <testcase classname="korgeek.util.TestCodeUtil" name="testDecode36" time="0.0070" />
+  <testcase classname="korgeek.util.TestCodeUtil" name="testEncrypt" time="0.173" />
+  <testcase classname="korgeek.util.TestCodeUtil" name="testPassword" time="0.0010" />
+  <testcase classname="korgeek.util.TestCodeUtil" name="testFileName" time="0.0020" />
+  <testcase classname="korgeek.util.TestDateFormatUtil" name="testToFormatAndDate" time="0.0050" />
+  <testcase classname="korgeek.util.TestDateFormatUtil" name="testSimpleTo" time="0.0010" />
   <testcase classname="korgeek.util.TestDebug" name="testDebug" time="0.0010" />
-  <testcase classname="korgeek.util.TestGeoUtil" name="testGetAddress" time="1.099" />
+  <testcase classname="korgeek.util.TestGeoUtil" name="testrGetAddress" time="1.532" />
   <testcase classname="korgeek.util.TestJunitUtil" name="testIsTestCase" time="0.0" />
-  <testcase classname="korgeek.util.TestJunitUtil" name="testGetAradonRoot" time="0.0010" />
+  <testcase classname="korgeek.util.TestJunitUtil" name="testGetAradonRoot" time="0.0" />
   <testcase classname="korgeek.util.TestListUtil" name="testCreate" time="0.0" />
-  <testcase classname="korgeek.util.TestListUtil" name="testLimitSizeList" time="0.0010" />
-  <testcase classname="korgeek.util.TestMapUtil" name="testCreate" time="0.0" />
-  <system-out><![CDATA[[DEBUG 2013-09-10T16:01:51][ah494gtruu68]	at korgeek.util.TestCodeUtil.testEncode36 (TestCodeUtil.java:13) 
-[DEBUG 2013-09-10T16:01:51][zik0zj]	at korgeek.util.TestCodeUtil.testEncode36 (TestCodeUtil.java:14) 
-[DEBUG 2013-09-10T16:01:51][43cfd1bf2e322089de2a324311391f5b]	at korgeek.util.TestCodeUtil.testDecode36 (TestCodeUtil.java:28) 
-[DEBUG 2013-09-10T16:01:51][3b9b587ca5d436543d153a36e51a42d5]	at korgeek.util.TestCodeUtil.testDecode36 (TestCodeUtil.java:29) 
-[DEBUG 2013-09-10T16:01:51][uvKBaGtcQxibFjaZy+6Lmk5hjBIlJk7TSI4TnrhfRjubsETbSET2UQRG8NGD0Llx]	at korgeek.util.TestCodeUtil.testEncrypt (TestCodeUtil.java:41) 
-[DEBUG 2013-09-10T16:01:52][20130910-160151, Tue Sep 10 16:01:51 WIT 2013]	at korgeek.util.TestDateFormatUtil.testToFormatAndDate (TestDateFormatUtil.java:14) 
-[DEBUG 2013-09-10T16:01:52][Debug Test, 1, 1]	at korgeek.util.TestDebug.testDebug (TestDebug.java:9) 
-[DEBUG 2013-09-10T16:01:52][Debug Test]	at korgeek.util.TestDebug.testDebug (TestDebug.java:10) 
-[DEBUG 2013-09-10T16:01:53][/Users/jinik/dev/workspace/git/korgeek/korgeek.util/.]	at korgeek.util.TestJunitUtil.testGetAradonRoot (TestJunitUtil.java:16) 
+  <testcase classname="korgeek.util.TestListUtil" name="testLimitSizeList" time="0.0" />
+  <testcase classname="korgeek.util.TestMapUtil" name="testCreate" time="0.0010" />
+  <system-out><![CDATA[[DEBUG 2013-10-02T18:06:22][ahn1jsc87otc]	at korgeek.util.TestCodeUtil.testEncode36 (TestCodeUtil.java:37) 
+[DEBUG 2013-10-02T18:06:22][zik0zj]	at korgeek.util.TestCodeUtil.testEncode36 (TestCodeUtil.java:38) 
+[DEBUG 2013-10-02T18:06:22][43cfd1bf2e322089de2a324311391f5b]	at korgeek.util.TestCodeUtil.testDecode36 (TestCodeUtil.java:52) 
+[DEBUG 2013-10-02T18:06:22][3b9b587ca5d436543d153a36e51a42d5]	at korgeek.util.TestCodeUtil.testDecode36 (TestCodeUtil.java:53) 
+[DEBUG 2013-10-02T18:06:22][uvKBaGtcQxibFjaZy+6Lmk5hjBIlJk7TSI4TnrhfRjubsETbSET2UQRG8NGD0Llx]	at korgeek.util.TestCodeUtil.testEncrypt (TestCodeUtil.java:65) 
+[DEBUG 2013-10-02T18:06:22][de/db/27/d7/79/f4/f5/c1/dedb27d779f4f5c15f3eaa5bb0c34386.png]	at korgeek.util.TestCodeUtil.testFileName (TestCodeUtil.java:88) 
+[DEBUG 2013-10-02T18:06:22][85/eb/77/24/2c/ba/9c/00/85eb77242cba9c005fcf484ea12b28ae.png]	at korgeek.util.TestCodeUtil.testFileName (TestCodeUtil.java:89) 
+[DEBUG 2013-10-02T18:06:22][85/eb/77/24/2c/ba/9c/00/85eb77242cba9c005fcf484ea12b28ae.png]	at korgeek.util.TestCodeUtil.testFileName (TestCodeUtil.java:90) 
+[DEBUG 2013-10-02T18:06:22][20131002-180622, Wed Oct 02 18:06:22 WIT 2013]	at korgeek.util.TestDateFormatUtil.testToFormatAndDate (TestDateFormatUtil.java:14) 
+[DEBUG 2013-10-02T18:06:22][Debug Test, 1, 1]	at korgeek.util.TestDebug.testDebug (TestDebug.java:9) 
+[DEBUG 2013-10-02T18:06:22][Debug Test]	at korgeek.util.TestDebug.testDebug (TestDebug.java:10) 
+[DEBUG 2013-10-02T18:06:23][Jalan Jenderal Sudirman No.Kav 44-46, Tanahabang, Central Jakarta City, Jakarta 10210, Indonesia]	at korgeek.util.TestGeoUtil.testrGetAddress (TestGeoUtil.java:12) 
+[DEBUG 2013-10-02T18:06:24][/Users/jinik/dev/workspace/git/korgeek/korgeek.util/.]	at korgeek.util.TestJunitUtil.testGetAradonRoot (TestJunitUtil.java:16) 
 [90, 91, 92, 93, 94, 95, 96, 97, 98, 99]
 ]]></system-out>
   <system-err><![CDATA[]]></system-err>

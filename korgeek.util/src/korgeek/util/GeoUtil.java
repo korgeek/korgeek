@@ -3,6 +3,8 @@ package korgeek.util;
 import java.util.Iterator;
 import java.util.List;
 
+import org.apache.commons.lang.StringUtils;
+
 import com.google.code.geocoder.Geocoder;
 import com.google.code.geocoder.GeocoderRequestBuilder;
 import com.google.code.geocoder.model.GeocodeResponse;
@@ -57,6 +59,11 @@ public class GeoUtil {
 			
 		}
 		return result;
+	}
+
+	public static String getCity(double latitude, double longitude) {
+
+		return StringUtils.substringBefore( GeoUtil.getAddress(latitude, longitude, "locality"), ",");
 	}
 	
 }
