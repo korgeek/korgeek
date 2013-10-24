@@ -2,6 +2,7 @@ package korgeek.aradon.common;
 
 import java.util.List;
 import java.util.Map;
+import java.util.concurrent.ConcurrentMap;
 
 import net.ion.framework.rest.IRequest;
 import net.ion.framework.rest.IResponse;
@@ -10,6 +11,7 @@ import net.ion.framework.util.ListUtil;
 import net.ion.framework.util.StringUtil;
 import net.ion.radon.core.let.AbstractServerResource;
 
+import org.restlet.data.Status;
 import org.restlet.representation.Representation;
 import org.restlet.resource.ResourceException;
 
@@ -23,16 +25,40 @@ public abstract class AbstractCustomServerResource extends AbstractServerResourc
 		);
 	}
 	
-	protected Representation toRepresentation(Map<String, ?> data) throws ResourceException {
-		return toRepresentation(ListUtil.create(data));
+	protected Representation toRepresentation(Map<String, ?> data, boolean isSuccess) throws ResourceException {
+		return toRepresentation(ListUtil.create(data), isSuccess);
 	}
 	
-	protected Representation toRepresentation(List<Map<String, ?>> data) throws ResourceException {
+	protected Representation toRepresentation(List<Map<String, ?>> data, boolean isSuccess) throws ResourceException {
+		ConcurrentMap<String, Object> responseMap = getInnerResponse().getAttributes();
+		responseMap.put("success", isSuccess);
 		if(getInnerRequest().getAttribute("debug", Boolean.class, Boolean.FALSE)){
-			return toRepresentation(  IRequest.create(getInnerRequest().getFormParameter()) , data, IResponse.create(getInnerResponse().getAttributes()));	
+			return toRepresentation(  IRequest.create(getInnerRequest().getFormParameter()) , data, IResponse.create(responseMap));	
 		}else{
-			return toRepresentation(  IRequest.EMPTY_REQUEST , data, IResponse.create(getInnerResponse().getAttributes()));
+			responseMap.remove("org.restlet.http.headers");
+			return toRepresentation(  IRequest.EMPTY_REQUEST , data, IResponse.create(responseMap));
 		}
+	}
+	
+	protected Representation toRepresentation(Status status, boolean isSuccess) throws ResourceException {
+		if(status.getCode() == 200 && isSuccess){
+			return toRepresentation(status, isSuccess, "Success");
+		}else{
+			return toRepresentation(status, isSuccess, "Sorry");	
+		}
+		
+	}
+	
+	protected Representation toRepresentation(Status status, boolean isSuccess, String errorMessage) throws ResourceException {
+		getResponse().setStatus(status);
+		ConcurrentMap<String, Object> responseMap = getInnerResponse().getAttributes();
+			responseMap.put("success", isSuccess);
+			if(StringUtil.isNotBlank(errorMessage)){
+				responseMap.put("message", errorMessage);	
+			}
+			responseMap.remove("org.restlet.http.headers");
+		return toRepresentation(  IRequest.EMPTY_REQUEST , ListUtil.EMPTY, IResponse.create(responseMap));
+		
 	}
 	
 	protected boolean isContextAttribute(String name){
@@ -77,5 +103,6 @@ public abstract class AbstractCustomServerResource extends AbstractServerResourc
 	protected String[] getParameterValues(String name){
 		return (this.getInnerRequest().getParameterValues(name));
 	}
+	
 	
 }

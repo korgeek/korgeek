@@ -32,6 +32,7 @@ public class DebugLet extends AbstractCustomServerResource {
 			node.put("aradon", this.getInnerRequest().getAradonParameter());
 			node.put("form", this.getInnerRequest().getFormParameter());
 			node.put("headers", this.getInnerRequest().getHeaders().getValuesMap());
+			node.put("body", getInnerRequest().getEntityAsText());
 			
 		List<Map<String, ?>> data = ListUtil.create(node);
 		

@@ -2,6 +2,8 @@ package korgeek.aradon.common;
 
 import junit.framework.TestCase;
 import korgeek.aradon.common.let.FaviconLet;
+import net.ion.framework.parse.gson.JsonArray;
+import net.ion.framework.parse.gson.JsonElement;
 import net.ion.framework.parse.gson.JsonObject;
 import net.ion.nradon.HttpHandler;
 import net.ion.nradon.Radon;
@@ -29,8 +31,16 @@ public abstract class AbstractTestServer extends TestCase{
 			radon.stop().get();
 	}
 	
-	protected JsonObject getNodeJsonObject(JsonObject json, String name){
-		return json.asJsonObject("result").asJsonArray("nodes").get(0).getAsJsonObject().getAsJsonObject(name);
+	protected JsonArray getNodeJsonArray(JsonObject json){
+		return json.asJsonObject("result").asJsonArray("nodes");
+	}	
+	
+	protected JsonObject getNodeJsonObject(JsonObject json){
+		return json.asJsonObject("result").asJsonArray("nodes").get(0).getAsJsonObject();
+	}
+	
+	protected JsonElement getNodeJsonElement(JsonObject json, String memberName){
+		return json.asJsonObject("result").asJsonArray("nodes").get(0).getAsJsonObject().get(memberName);
 	}
 	
 }

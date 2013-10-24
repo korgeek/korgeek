@@ -26,9 +26,9 @@ public class TestDebugLet extends AbstractTestServer{
 			request.addHeader("testheader", "testheadervalue");
 		String text = request.get().getText();
 		JsonObject json = JsonObject.fromString( text );
-		
-		assertEquals("1234", getNodeJsonObject(json, "form").asString("test"));
-		assertEquals("testheadervalue", getNodeJsonObject(json, "headers").asString("testheader"));
+
+		assertEquals("1234", getNodeJsonElement(json, "form").getAsJsonObject().asString("test"));
+		assertEquals("testheadervalue", getNodeJsonElement(json, "headers").getAsJsonObject().asString("testheader"));
 		
 	}
 
@@ -40,25 +40,11 @@ public class TestDebugLet extends AbstractTestServer{
 		String text = request.post().getText();
 		JsonObject json = JsonObject.fromString( text );
 		
-
-		assertEquals("testparamValue", getNodeJsonObject(json, "form").asString("testparam"));
-		assertEquals("testheadervalue", getNodeJsonObject(json, "headers").asString("testheader"));
-		
+		assertEquals("testparamValue", getNodeJsonElement(json, "form").getAsJsonObject().asString("testparam"));
+		assertEquals("testheadervalue", getNodeJsonElement(json, "headers").getAsJsonObject().asString("testheader"));
 
 	}
 
-	
-	
-	private String getHeaderStringValue(JsonObject json, String name){
-		return json.asJsonObject("result").asJsonArray("nodes").get(0).getAsJsonObject().getAsJsonObject("headers").asString(name);
-	}
-	
-	private String getParameterStringValue(JsonObject json, String name){
-		return json.asJsonObject("result").asJsonArray("nodes").get(0).getAsJsonObject().getAsJsonObject("form").asString(name);
-	}
-	
-	private JsonObject getFormStringValue(JsonObject json){
-		return json.asJsonObject("result").asJsonArray("nodes").get(0).getAsJsonObject().getAsJsonObject("aradon");
-	}
+
 	
 }
