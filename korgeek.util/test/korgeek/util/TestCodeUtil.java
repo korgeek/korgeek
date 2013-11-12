@@ -96,6 +96,14 @@ public class TestCodeUtil extends TestCase{
 		
 	}
 	
+	public void testPin() throws Exception {
+		
+		
+		Debug.debug( Integer.toHexString(1) ); 
+		Debug.debug( (long)0xEFFFFFFF ); 
+		Debug.debug( Integer.toHexString( (int)(System.nanoTime() % (long)0xFFFFFFFF))  );
+	}
+	
 	
 }
 
