@@ -10,9 +10,9 @@ public class TestGeoUtil extends TestCase{
 	
 	public void testrGetAddress() throws Exception {
 		Debug.debug(GeoUtil.getAddress(latitude, longitude, "street_address"));
-		Assert.assertEquals("Jalan Jenderal Sudirman No.Kav 44-46, Tanahabang, Central Jakarta City, Jakarta 10210, Indonesia", GeoUtil.getAddress(latitude, longitude, "street_address"));
+		Assert.assertEquals("Jalan Jenderal Sudirman No.Kav 44-46, Tanah Abang, Central Jakarta City, Jakarta 10210, Indonesia", GeoUtil.getAddress(latitude, longitude, "street_address"));
 		Assert.assertEquals("Indonesia", GeoUtil.getAddress(latitude, longitude, "country"));
-		Assert.assertEquals("Tanahabang, Central Jakarta City, Jakarta", GeoUtil.getAddress(latitude, longitude));
+		Assert.assertEquals("Tanah Abang, Central Jakarta City, Jakarta", GeoUtil.getAddress(latitude, longitude));
 		Assert.assertEquals("Central Jakarta", GeoUtil.getCity(latitude, longitude));
 	}
 

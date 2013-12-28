@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite errors="0" failures="0" hostname="aca9002a.ipt.aol.com" name="korgeek.TestAllTests" tests="4" time="1.272" timestamp="2013-10-09T16:18:57">
+<testsuite errors="0" failures="0" hostname="jiniks-MacBook-Pro.local" name="korgeek.TestAllTests" tests="4" time="0.999" timestamp="2013-12-28T13:14:57">
   <properties>
     <property name="java.vendor" value="Apple Inc." />
     <property name="sun.java.launcher" value="SUN_STANDARD" />
@@ -7,11 +7,11 @@
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers" />
     <property name="os.name" value="Mac OS X" />
     <property name="sun.boot.class.path" value="/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/jsfd.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/classes.jar:/System/Library/Frameworks/JavaVM.framework/Frameworks/JavaRuntimeSupport.framework/Resources/Java/JavaRuntimeSupport.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/ui.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/laf.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/sunrsasign.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/jsse.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/jce.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/charsets.jar" />
-    <property name="TODAY" value="October 9 2013" />
+    <property name="TODAY" value="December 28 2013" />
     <property name="build.number" value="1" />
     <property name="java.vm.specification.vendor" value="Sun Microsystems Inc." />
     <property name="ant.home" value="/Users/jinik/dev/app/eclipse-juno/plugins/org.apache.ant_1.8.3.v20120321-1730" />
-    <property name="java.runtime.version" value="1.6.0_51-b11-457-11M4509" />
+    <property name="java.runtime.version" value="1.6.0_65-b14-462-11M4609" />
     <property name="version.number" value="0" />
     <property name="user.name" value="jinik" />
     <property name="awt.nativeDoubleBuffering" value="true" />
@@ -22,8 +22,8 @@
     <property name="manifest.main.class" value="" />
     <property name="ant.project.default-target" value="publish" />
     <property name="ant.project.name" value="Jar Publish" />
-    <property name="DSTAMP" value="20131009" />
-    <property name="java.version" value="1.6.0_51" />
+    <property name="DSTAMP" value="20131228" />
+    <property name="java.version" value="1.6.0_65" />
     <property name="user.timezone" value="" />
     <property name="sun.arch.data.model" value="64" />
     <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16" />
@@ -38,11 +38,11 @@
     <property name="java.home" value="/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home" />
     <property name="java.vm.info" value="mixed mode" />
     <property name="ant.file" value="/Users/jinik/dev/workspace/git/korgeek/korgeek.aradon/build.xml" />
-    <property name="os.version" value="10.8.5" />
+    <property name="os.version" value="10.9.1" />
     <property name="test.reports" value="./res/report" />
     <property name="ant.file.type.Jar Publish" value="file" />
     <property name="path.separator" value=":" />
-    <property name="java.vm.version" value="20.51-b01-457" />
+    <property name="java.vm.version" value="20.65-b04-462" />
     <property name="ant.library.dir" value="/Users/jinik/dev/app/eclipse-juno/plugins/org.apache.ant_1.8.3.v20120321-1730/lib" />
     <property name="manifest.classpath" value="./" />
     <property name="java.awt.printerjob" value="apple.awt.CPrinterJob" />
@@ -59,10 +59,10 @@
     <property name="java.vm.vendor" value="Apple Inc." />
     <property name="gopherProxySet" value="false" />
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment" />
-    <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner korgeek.TestAllTests filtertrace=true haltOnError=false haltOnFailure=true formatter=org.apache.tools.ant.taskdefs.optional.junit.SummaryJUnitResultFormatter showoutput=false outputtoformatters=true logfailedtests=true logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,/Users/jinik/dev/workspace/git/korgeek/korgeek.aradon/res/report/TEST-korgeek.TestAllTests.xml crashfile=/Users/jinik/dev/workspace/git/korgeek/korgeek.aradon/junitvmwatcher3538251770658701989.properties propsfile=/Users/jinik/dev/workspace/git/korgeek/korgeek.aradon/junit4442333027076264384.properties" />
+    <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner korgeek.TestAllTests filtertrace=true haltOnError=false haltOnFailure=true formatter=org.apache.tools.ant.taskdefs.optional.junit.SummaryJUnitResultFormatter showoutput=false outputtoformatters=true logfailedtests=true logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,/Users/jinik/dev/workspace/git/korgeek/korgeek.aradon/res/report/TEST-korgeek.TestAllTests.xml crashfile=/Users/jinik/dev/workspace/git/korgeek/korgeek.aradon/junitvmwatcher3169685421050197799.properties propsfile=/Users/jinik/dev/workspace/git/korgeek/korgeek.aradon/junit6530055529436785390.properties" />
     <property name="java.class.path" value="/Users/jinik/dev/workspace/git/korgeek/korgeek.aradon/bin:/Users/jinik/dev/workspace/git/korgeek/korgeek.aradon/lib/apache_extend_fat.jar:/Users/jinik/dev/workspace/git/korgeek/korgeek.aradon/lib/aradon_0.9.jar:/Users/jinik/dev/workspace/git/korgeek/korgeek.aradon/lib/commons-vfs2-2.0.jar:/Users/jinik/dev/workspace/git/korgeek/korgeek.aradon/lib/iframework_2.3.jar:/Users/jinik/dev/workspace/git/korgeek/korgeek.aradon/lib/jci_fat.jar:/Users/jinik/dev/workspace/git/korgeek/korgeek.aradon/lib/junit.jar:/Users/jinik/dev/workspace/git/korgeek/korgeek.aradon/lib/mongo-2.8.0.jar:/Users/jinik/dev/workspace/git/korgeek/korgeek.aradon/lib/mongonode_0.3.jar:/Users/jinik/dev/workspace/git/korgeek/korgeek.aradon/lib/netty-3.2.7.Final.jar:/Users/jinik/dev/workspace/git/korgeek/korgeek.aradon/lib/org.simpleframework.jar:/Users/jinik/dev/workspace/git/korgeek/korgeek.aradon/lib/rest_fat.jar:/Users/jinik/dev/app/eclipse-juno/plugins/org.apache.ant_1.8.3.v20120321-1730/lib/ant-launcher.jar:/Users/jinik/dev/app/eclipse-juno/plugins/org.apache.ant_1.8.3.v20120321-1730/lib/ant.jar:/Users/jinik/dev/app/eclipse-juno/plugins/org.apache.ant_1.8.3.v20120321-1730/lib/ant-junit.jar:/Users/jinik/dev/app/eclipse-juno/plugins/org.apache.ant_1.8.3.v20120321-1730/lib/ant-junit4.jar" />
     <property name="ant.version" value="Apache Ant(TM) version 1.8.3 compiled on February 26 2012" />
-    <property name="TSTAMP" value="2318" />
+    <property name="TSTAMP" value="2014" />
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification" />
     <property name="java.vm.specification.version" value="1.0" />
     <property name="sun.cpu.endian" value="little" />
@@ -71,81 +71,81 @@
     <property name="java.io.tmpdir" value="/var/folders/ck/x91yf9ps3ps_mg95cgl11pq40000gn/T/" />
     <property name="java.vendor.url.bug" value="http://bugreport.apple.com/" />
     <property name="workspaceDir" value="../../ion/" />
-    <property name="mrj.build" value="11M4509" />
+    <property name="mrj.build" value="11M4609" />
     <property name="java.awt.graphicsenv" value="apple.awt.CGraphicsEnvironment" />
     <property name="os.arch" value="x86_64" />
     <property name="java.ext.dirs" value="/Users/jinik/Library/Java/Extensions:/Library/Java/Extensions:/System/Library/Java/Extensions:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/lib/ext" />
     <property name="user.dir" value="/Users/jinik/dev/workspace/git/korgeek/korgeek.aradon" />
-    <property name="mrj.version" value="1070.1.6.0_51-457" />
+    <property name="mrj.version" value="1070.1.6.0_65-462" />
     <property name="publishName" value="korgeek_aradon" />
     <property name="line.separator" value="&#xa;" />
     <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM" />
     <property name="basedir" value="/Users/jinik/dev/workspace/git/korgeek/korgeek.aradon" />
     <property name="baseDir" value="." />
     <property name="ant.java.version" value="1.6" />
-    <property name="TODAY_MY" value="10/09/2013 11:18" />
+    <property name="TODAY_MY" value="12/28/2013 08:14" />
     <property name="ant.core.lib" value="/Users/jinik/dev/app/eclipse-juno/plugins/org.apache.ant_1.8.3.v20120321-1730/lib/ant.jar" />
     <property name="file.encoding" value="UTF-8" />
     <property name="java.specification.version" value="1.6" />
     <property name="ant.project.invoked-targets" value="test_framework,publish,copy" />
   </properties>
-  <testcase classname="korgeek.aradon.common.let.TestDebugLet" name="testDebugGet" time="0.894" />
-  <testcase classname="korgeek.aradon.common.let.TestDebugLet" name="testDebugPost" time="0.018" />
-  <testcase classname="korgeek.aradon.common.let.TestFaviconLet" name="testFavicon" time="0.184" />
-  <testcase classname="korgeek.aradon.common.let.TestFaviconLet" name="testFaviconAttribute" time="0.139" />
-  <system-out><![CDATA[[Bye....... Aradon] by net.ion.radon.core.Aradon:destorySelf[20131009-231857]
-[Bye....... Aradon] by net.ion.radon.core.Aradon:destorySelf[20131009-231857]
-[favicon from getResourceAsStream] by korgeek.aradon.common.let.FaviconLet:setFavicon[20131009-231857]
-[Bye....... Aradon] by net.ion.radon.core.Aradon:destorySelf[20131009-231858]
-[favicon from Attribute] by korgeek.aradon.common.let.FaviconLet:setFavicon[20131009-231858]
-[Bye....... Aradon] by net.ion.radon.core.Aradon:destorySelf[20131009-231858]
+  <testcase classname="korgeek.aradon.common.let.TestDebugLet" name="testDebugGet" time="0.659" />
+  <testcase classname="korgeek.aradon.common.let.TestDebugLet" name="testDebugPost" time="0.015" />
+  <testcase classname="korgeek.aradon.common.let.TestFaviconLet" name="testFavicon" time="0.174" />
+  <testcase classname="korgeek.aradon.common.let.TestFaviconLet" name="testFaviconAttribute" time="0.12" />
+  <system-out><![CDATA[[Bye....... Aradon] by net.ion.radon.core.Aradon:destorySelf[20131228-201458]
+[Bye....... Aradon] by net.ion.radon.core.Aradon:destorySelf[20131228-201458]
+[favicon from getResourceAsStream] by korgeek.aradon.common.let.FaviconLet:setFavicon[20131228-201458]
+[Bye....... Aradon] by net.ion.radon.core.Aradon:destorySelf[20131228-201458]
+[favicon from Attribute] by korgeek.aradon.common.let.FaviconLet:setFavicon[20131228-201458]
+[Bye....... Aradon] by net.ion.radon.core.Aradon:destorySelf[20131228-201458]
 ]]></system-out>
-  <system-err><![CDATA[[[PORT, 58585]] by net.ion.nradon.netty.NettyWebServer$1:call[20131009-231857]
-Oct 9, 2013 11:18:57 PM org.restlet.ext.httpclient.HttpClientHelper start
+  <system-err><![CDATA[[[PORT, 58585]] by net.ion.nradon.netty.NettyWebServer$1:call[20131228-201457]
+Dec 28, 2013 8:14:57 PM org.restlet.ext.httpclient.HttpClientHelper start
 INFO: Starting the Apache HTTP client
 log4j:WARN No appenders could be found for logger (org.apache.http.impl.conn.tsccm.ThreadSafeClientConnManager).
 log4j:WARN Please initialize the log4j system properly.
 log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
-Oct 9, 2013 11:18:57 PM org.restlet.engine.log.LogFilter afterHandle
-INFO: 2013-10-09	23:18:57	127.0.0.1	anony	-	-1	GET	/debug/debug	test=1234&	200	401	0	90	-	Restlet-Framework/2.1rc5	-
-Oct 9, 2013 11:18:57 PM net.ion.radon.core.Aradon destorySelf
+Dec 28, 2013 8:14:58 PM org.restlet.engine.log.LogFilter afterHandle
+INFO: 2013-12-28	20:14:58	127.0.0.1	anony	-	-1	GET	/debug/debug	test=1234&	200	401	0	71	-	Restlet-Framework/2.1rc5	-
+Dec 28, 2013 8:14:58 PM net.ion.radon.core.Aradon destorySelf
 WARNING: aradon server stoped
-[[PORT, 58585]] by net.ion.nradon.netty.NettyWebServer$1:call[20131009-231857]
-Oct 9, 2013 11:18:57 PM org.restlet.engine.log.LogFilter afterHandle
-INFO: 2013-10-09	23:18:57	127.0.0.1	anony	-	-1	POST	/debug/debug		200	538	24	3	-	Restlet-Framework/2.1rc5	-
-Oct 9, 2013 11:18:57 PM net.ion.radon.core.Aradon destorySelf
+[[PORT, 58585]] by net.ion.nradon.netty.NettyWebServer$1:call[20131228-201458]
+Dec 28, 2013 8:14:58 PM org.restlet.engine.log.LogFilter afterHandle
+INFO: 2013-12-28	20:14:58	127.0.0.1	anony	-	-1	POST	/debug/debug		200	538	24	3	-	Restlet-Framework/2.1rc5	-
+Dec 28, 2013 8:14:58 PM net.ion.radon.core.Aradon destorySelf
 WARNING: aradon server stoped
-[[PORT, 58585]] by net.ion.nradon.netty.NettyWebServer$1:call[20131009-231857]
-[[PORT, 58585]] by net.ion.nradon.netty.NettyWebServer$1:call[20131009-231857]
-Oct 9, 2013 11:18:57 PM org.restlet.engine.log.LogFilter afterHandle
-INFO: 2013-10-09	23:18:57	127.0.0.1	anony	-	-1	DELETE	/favicon.ico		200	14	0	2	-	Restlet-Framework/2.1rc5	-
-Oct 9, 2013 11:18:57 PM org.restlet.engine.log.LogFilter afterHandle
-INFO: 2013-10-09	23:18:57	127.0.0.1	anony	-	-1	GET	/favicon.ico		200	-	0	5	-	Restlet-Framework/2.1rc5	-
-Oct 9, 2013 11:18:58 PM org.restlet.engine.log.LogFilter afterHandle
-INFO: 2013-10-09	23:18:58	127.0.0.1	anony	-	-1	GET	/favicon.ico		200	-	0	1	-	Restlet-Framework/2.1rc5	-
-Oct 9, 2013 11:18:58 PM org.restlet.engine.log.LogFilter afterHandle
-INFO: 2013-10-09	23:18:58	127.0.0.1	anony	-	-1	GET	/favicon.ico		200	-	0	1	-	Restlet-Framework/2.1rc5	-
-Oct 9, 2013 11:18:58 PM org.restlet.engine.log.LogFilter afterHandle
-INFO: 2013-10-09	23:18:58	127.0.0.1	anony	-	-1	GET	/favicon.ico		200	-	0	0	-	Restlet-Framework/2.1rc5	-
-Oct 9, 2013 11:18:58 PM org.restlet.engine.log.LogFilter afterHandle
-INFO: 2013-10-09	23:18:58	127.0.0.1	anony	-	-1	GET	/favicon.ico		200	-	0	1	-	Restlet-Framework/2.1rc5	-
-Oct 9, 2013 11:18:58 PM net.ion.radon.core.Aradon destorySelf
+[[PORT, 58585]] by net.ion.nradon.netty.NettyWebServer$1:call[20131228-201458]
+[[PORT, 58585]] by net.ion.nradon.netty.NettyWebServer$1:call[20131228-201458]
+Dec 28, 2013 8:14:58 PM org.restlet.engine.log.LogFilter afterHandle
+INFO: 2013-12-28	20:14:58	127.0.0.1	anony	-	-1	DELETE	/favicon.ico		200	14	0	2	-	Restlet-Framework/2.1rc5	-
+Dec 28, 2013 8:14:58 PM org.restlet.engine.log.LogFilter afterHandle
+INFO: 2013-12-28	20:14:58	127.0.0.1	anony	-	-1	GET	/favicon.ico		200	-	0	2	-	Restlet-Framework/2.1rc5	-
+Dec 28, 2013 8:14:58 PM org.restlet.engine.log.LogFilter afterHandle
+INFO: 2013-12-28	20:14:58	127.0.0.1	anony	-	-1	GET	/favicon.ico		200	-	0	1	-	Restlet-Framework/2.1rc5	-
+Dec 28, 2013 8:14:58 PM org.restlet.engine.log.LogFilter afterHandle
+INFO: 2013-12-28	20:14:58	127.0.0.1	anony	-	-1	GET	/favicon.ico		200	-	0	0	-	Restlet-Framework/2.1rc5	-
+Dec 28, 2013 8:14:58 PM org.restlet.engine.log.LogFilter afterHandle
+INFO: 2013-12-28	20:14:58	127.0.0.1	anony	-	-1	GET	/favicon.ico		200	-	0	1	-	Restlet-Framework/2.1rc5	-
+Dec 28, 2013 8:14:58 PM org.restlet.engine.log.LogFilter afterHandle
+INFO: 2013-12-28	20:14:58	127.0.0.1	anony	-	-1	GET	/favicon.ico		200	-	0	1	-	Restlet-Framework/2.1rc5	-
+Dec 28, 2013 8:14:58 PM net.ion.radon.core.Aradon destorySelf
 WARNING: aradon server stoped
-[[PORT, 58585]] by net.ion.nradon.netty.NettyWebServer$1:call[20131009-231858]
-[[PORT, 58585]] by net.ion.nradon.netty.NettyWebServer$1:call[20131009-231858]
-Oct 9, 2013 11:18:58 PM org.restlet.engine.log.LogFilter afterHandle
-INFO: 2013-10-09	23:18:58	127.0.0.1	anony	-	-1	DELETE	/favicon.ico		200	14	0	1	-	Restlet-Framework/2.1rc5	-
-Oct 9, 2013 11:18:58 PM org.restlet.engine.log.LogFilter afterHandle
-INFO: 2013-10-09	23:18:58	127.0.0.1	anony	-	-1	GET	/favicon.ico		200	-	0	3	-	Restlet-Framework/2.1rc5	-
-Oct 9, 2013 11:18:58 PM org.restlet.engine.log.LogFilter afterHandle
-INFO: 2013-10-09	23:18:58	127.0.0.1	anony	-	-1	GET	/favicon.ico		200	-	0	0	-	Restlet-Framework/2.1rc5	-
-Oct 9, 2013 11:18:58 PM org.restlet.engine.log.LogFilter afterHandle
-INFO: 2013-10-09	23:18:58	127.0.0.1	anony	-	-1	GET	/favicon.ico		200	-	0	1	-	Restlet-Framework/2.1rc5	-
-Oct 9, 2013 11:18:58 PM org.restlet.engine.log.LogFilter afterHandle
-INFO: 2013-10-09	23:18:58	127.0.0.1	anony	-	-1	GET	/favicon.ico		200	-	0	0	-	Restlet-Framework/2.1rc5	-
-Oct 9, 2013 11:18:58 PM org.restlet.engine.log.LogFilter afterHandle
-INFO: 2013-10-09	23:18:58	127.0.0.1	anony	-	-1	GET	/favicon.ico		200	-	0	1	-	Restlet-Framework/2.1rc5	-
-Oct 9, 2013 11:18:58 PM net.ion.radon.core.Aradon destorySelf
+[[PORT, 58585]] by net.ion.nradon.netty.NettyWebServer$1:call[20131228-201458]
+[[PORT, 58585]] by net.ion.nradon.netty.NettyWebServer$1:call[20131228-201458]
+Dec 28, 2013 8:14:58 PM org.restlet.engine.log.LogFilter afterHandle
+INFO: 2013-12-28	20:14:58	127.0.0.1	anony	-	-1	DELETE	/favicon.ico		200	14	0	1	-	Restlet-Framework/2.1rc5	-
+Dec 28, 2013 8:14:58 PM org.restlet.engine.log.LogFilter afterHandle
+INFO: 2013-12-28	20:14:58	127.0.0.1	anony	-	-1	GET	/favicon.ico		200	-	0	2	-	Restlet-Framework/2.1rc5	-
+Dec 28, 2013 8:14:58 PM org.restlet.engine.log.LogFilter afterHandle
+INFO: 2013-12-28	20:14:58	127.0.0.1	anony	-	-1	GET	/favicon.ico		200	-	0	1	-	Restlet-Framework/2.1rc5	-
+Dec 28, 2013 8:14:58 PM org.restlet.engine.log.LogFilter afterHandle
+INFO: 2013-12-28	20:14:58	127.0.0.1	anony	-	-1	GET	/favicon.ico		200	-	0	0	-	Restlet-Framework/2.1rc5	-
+Dec 28, 2013 8:14:58 PM org.restlet.engine.log.LogFilter afterHandle
+INFO: 2013-12-28	20:14:58	127.0.0.1	anony	-	-1	GET	/favicon.ico		200	-	0	0	-	Restlet-Framework/2.1rc5	-
+Dec 28, 2013 8:14:58 PM org.restlet.engine.log.LogFilter afterHandle
+INFO: 2013-12-28	20:14:58	127.0.0.1	anony	-	-1	GET	/favicon.ico		200	-	0	1	-	Restlet-Framework/2.1rc5	-
+Dec 28, 2013 8:14:58 PM net.ion.radon.core.Aradon destorySelf
 WARNING: aradon server stoped
 ]]></system-err>
 </testsuite>
